@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 # .env file 로드
 load_dotenv(verbose=True)
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
+YOUTUBE_TOKEN = os.getenv('YOUTUBE_TOKEN')
 
 #app의 커맨드 접두사 -> -로 하였으므로 명령어는 -로 시작한다
 app = commands.Bot(command_prefix='-')
-
 
 @app.event
 async def on_ready():

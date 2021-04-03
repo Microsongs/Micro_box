@@ -6,8 +6,14 @@ it has the following characteristics.<br><br>
 ## Installation Link
 https://discord.com/api/oauth2/authorize?client_id=827472677077778462&permissions=271969360&scope=bot<br><br>
 
+# Installation Package
+- pip install discord<br>
+- pip install python-dotenv<br>
+- pip install google-api-python-client<br>
+<br>
+
 ## Characteristics
-- language selection available(en, kr)<br>
+- language selection available(en, kr, jp)<br>
 - Music list can be saved<br><br>
 
 ## Reference
